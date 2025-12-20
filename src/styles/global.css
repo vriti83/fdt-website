@@ -1,0 +1,26 @@
+@import './variables.css';
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Inter, sans-serif;
+}
+
+
+body {
+background-color: var(--light);
+color: var(--dark);
+}
+
+
+a {
+text-decoration: none;
+color: inherit;
+}
+
+
+section {
+padding: 80px 8%;
+}
