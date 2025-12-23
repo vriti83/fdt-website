@@ -7,6 +7,9 @@ import ERPIntegration from "./components/ERPIntegration";
 import RPASolutions from "./components/RPASolutions";
 import CRMSales from "./components/CRMSales";
 import MarketingCommunication from "./components/MarketingCommunication";  
+import AccountsFinance from "./components/AccountsFinance";
+import AboutUs from "./components/AboutUs";
+import ContactFooter from "./components/ContactFooter";
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
       <RPASolutions />
       <CRMSales />
       <MarketingCommunication />
+      <AccountsFinance />
+      <AboutUs />
+      <ContactFooter />
     </>
   );
 }
