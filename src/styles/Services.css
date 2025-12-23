@@ -1,0 +1,65 @@
+.services {
+  height: 100vh;
+  background-color: #ffffff;
+  padding: 70px 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER */
+.services-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 100px;
+}
+
+.services-header h2 {
+  font-size: 64px;
+  font-weight: 500;
+  color: #005461;
+}
+
+.services-header h2 span {
+  font-weight: 700;
+}
+
+.services-tagline {
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  color: #005461;
+  text-align: right;
+}
+
+/* GRID */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 36px 48px;
+  justify-items: center;
+}
+
+/* PILLS */
+.service-pill {
+  width: 100%;
+  max-width: 380px;
+  padding: 20px 32px;
+  border-radius: 999px;
+  border: 2px solid #005461;
+  background-color: #f4f4f4;   /* all grey by default */
+  font-size: 18px;
+  color: #005461;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+/* Centered pills */
+.service-pill.center {
+  grid-column: 2 / 3;
+}
+
+.service-pill:hover {
+  background-color: #00b7b5;
+  transform: translateY(-2px);
+}

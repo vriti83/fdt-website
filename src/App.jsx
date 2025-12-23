@@ -1,25 +1,17 @@
-import { Routes, Route } from 'react-router-dom'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import Home from './pages/Home'
-import Services from './pages/Services'
-import Marketing from './pages/Marketing'
-import Finance from './pages/Finance'
-import About from './pages/About'
+import Hero from "./components/Hero";
+import WhatWeDo from "./components/WhatWeDo";
+import Sercices from "./components/Services";
+import BeamSetup from "./components/BeamSetup";
 
-
-export default function App() {
-return (
-<>
-<Navbar />
-<Routes>
-<Route path="/" element={<Home />} />
-<Route path="/services" element={<Services />} />
-<Route path="/marketing" element={<Marketing />} />
-<Route path="/finance" element={<Finance />} />
-<Route path="/about" element={<About />} />
-</Routes>
-<Footer />
-</>
-)
+function App() {
+  return (
+    <>
+      <Hero />
+      <WhatWeDo />
+      <Sercices />
+      <BeamSetup />
+    </>
+  );
 }
+
+export default App;
