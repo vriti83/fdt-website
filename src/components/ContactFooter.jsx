@@ -45,7 +45,7 @@ export default function ContactFooter() {
           {/* SOCIAL ICONS */}
           <div className="social-icons">
             <a
-              href="https://instagram.com/YOUR_USERNAME"
+              href="https://www.instagram.com/fdt.info/"
               target="_blank"
               rel="noopener noreferrer"
             >
