@@ -1,8 +1,17 @@
 import "../styles/Services.css";
+import { scrollToSection } from "../utils/scrollToSection";
+// const scrollToSection = (id) => {
+//   const section = document.getElementById(id);
+//   if (section) {
+//     section.scrollIntoView({ 
+//         behavior: "smooth",
+//     });
+//   }
+// };
 
 const Services = () => {
   return (
-    <section className="services">
+    <section id="services" className="services">
       {/* Top Row */}
       <div className="services-header">
         <h2>
@@ -18,15 +27,15 @@ const Services = () => {
 
       {/* Buttons Grid */}
       <div className="services-grid">
-        <button className="service-pill">Beam Setup →</button>
-        <button className="service-pill">HR Automation →</button>
-        <button className="service-pill">ERP Integration →</button>
+        <button className="service-pill" onClick={() => scrollToSection("beam-setup")}>Beam Setup →</button>
+        <button className="service-pill" onClick={() => scrollToSection("hr-automation")}>HR Automation →</button>
+        <button className="service-pill" onClick={() => scrollToSection("erp-integration")}>ERP Integration →</button>
 
-        <button className="service-pill">RPA Solutions →</button>
-        <button className="service-pill">CRM & Sales Solutions →</button>
-        <button className="service-pill">Marketing & Communication →</button>
+        <button className="service-pill" onClick={() => scrollToSection("rpa-solutions")}>RPA Solutions →</button>
+        <button className="service-pill" onClick={() => scrollToSection("crm-sales")}>CRM & Sales Solutions →</button>
+        <button className="service-pill" onClick={() => scrollToSection("marketing-communication")}>Marketing & Communication →</button>
 
-        <button className="service-pill center">
+        <button className="service-pill center" onClick={() => scrollToSection("accounts-finance")}>
           Accounts & Finance Automation →
         </button>
 

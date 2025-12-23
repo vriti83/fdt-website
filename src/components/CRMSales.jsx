@@ -2,7 +2,7 @@ import "../styles/CRMSales.css";
 
 const CRMSales = () => {
   return (
-    <section className="crm">
+    <section id="crm-sales" className="crm">
       <div className="crm-container">
         {/* Title */}
         <h1 className="crm-title">CRM & Sales Solutions</h1>

@@ -2,7 +2,7 @@ import "../styles/RPASolutions.css";
 
 const RPASolutions = () => {
   return (
-    <section className="rpa">
+    <section id="rpa-solutions" className="rpa">
       <div className="rpa-container">
         {/* Title */}
         <h1 className="rpa-title">

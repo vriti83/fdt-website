@@ -2,7 +2,7 @@ import "../styles/MarketingCommunication.css";
 
 const MarketingCommunication = () => {
   return (
-    <section className="marketing">
+    <section id="marketing-communication" className="marketing">
       <div className="marketing-container">
         {/* Title */}
         <h1 className="marketing-title">Marketing & Communication</h1>

@@ -2,7 +2,7 @@ import "../styles/AccountsFinance.css";
 
 const AccountsFinance = () => {
   return (
-    <section className="accounts">
+    <section id="accounts-finance" className="accounts">
       <div className="accounts-container">
         {/* Title */}
         <h1 className="accounts-title">Accounts & Finance Automation</h1>

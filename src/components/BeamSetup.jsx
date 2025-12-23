@@ -2,7 +2,7 @@ import "../styles/BeamSetup.css";
 
 const BeamSetup = () => {
   return (
-    <section className="beam">
+    <section id="beam-setup" className="beam">
       <div className="beam-container">
         {/* Title */}
         <h1 className="beam-title">

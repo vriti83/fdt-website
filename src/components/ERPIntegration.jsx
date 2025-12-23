@@ -2,7 +2,7 @@ import "../styles/ERPIntegration.css";
 
 const ERPIntegration = () => {
   return (
-    <section className="erp">
+    <section id="erp-integration" className="erp">
       <div className="erp-container">
         {/* Title */}
         <h1 className="erp-title">ERP Integration</h1>

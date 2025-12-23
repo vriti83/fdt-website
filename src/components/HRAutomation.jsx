@@ -2,7 +2,7 @@ import "../styles/HRAutomation.css";
 
 const HRAutomation = () => {
   return (
-    <section className="hr">
+    <section id="hr-automation" className="hr">
       <div className="hr-container">
         {/* Title */}
         <h1 className="hr-title">HR Automation</h1>

@@ -17,7 +17,12 @@ const Hero = () => {
         </p>
 
         <div className="hero-buttons">
-          <button className="hero-btn">Services →</button>
+          <button className="hero-btn" onClick={() => {
+            document.getElementById("services").scrollIntoView({ behavior: 'smooth' });
+          }}
+          >
+            Services →
+          </button>
           <button className="hero-btn">Book For Demo →</button>
           <button className="hero-btn">About Us →</button>
         </div>
