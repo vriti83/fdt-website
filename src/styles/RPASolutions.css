@@ -1,0 +1,75 @@
+.rpa {
+  height: 100vh;
+  background-color: #cffaf4;
+  display: flex;
+  align-items: center;
+}
+
+.rpa-container {
+  max-width: 1400px;
+  padding: 0 160px;
+  width: 100%;
+}
+
+/* TITLE */
+.rpa-title {
+  font-size: 56px;
+  font-weight: 500;
+  color: #005461;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+/* LIST */
+.rpa-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.rpa-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.rpa-item span {
+  font-size: 40px;
+  font-weight: 600;
+  color: #018790;
+  min-width: 64px;
+}
+
+.rpa-item p {
+  font-size: 22px;
+  line-height: 1.6;
+  color: #005461;
+  max-width: 900px;
+}
+
+.rpa-item p strong {
+  font-weight: 600;
+}
+
+/* BUTTONS */
+.rpa-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.rpa-btn {
+  background: transparent;
+  border: 2px solid #005461;
+  border-radius: 999px;
+  padding: 18px 44px;
+  font-size: 18px;
+  color: #005461;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.rpa-btn:hover {
+  background-color: #005461;
+  color: #cffaf4;
+}
